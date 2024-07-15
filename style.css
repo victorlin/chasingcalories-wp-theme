@@ -119,7 +119,7 @@ blockquote footer {
 .panel-title>.small:hover, 
 .panel-title>small>a:hover, 
 .panel-title>.small>a:hover {
-	color: #19b798;
+	color: #7f6b36;
 }
 
 /*--------------------------------------------------------------
@@ -167,8 +167,8 @@ button,
 html input[type="button"],
 input[type="submit"] {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: #bb9d4f;
+    border-color: #bb9d4f;
 }
 button:hover, 
 button:focus,
@@ -177,8 +177,8 @@ html input[type="button"]:focus,
 input[type="submit"]:hover, 
 input[type="submit"]:focus {
     color: #fff;
-    background-color: #16a085;
-    border-color: #16a085;
+    background-color: #af944b;
+    border-color: #af944b;
 }
 
 /* Bootstrap uses "active" style on the <li>, but WordPress paginate_links() uses 
@@ -188,7 +188,7 @@ input[type="submit"]:focus {
 .pagination>li>a, 
 .pagination>li>span,
 span.page-numbers.current {
-	color: #16a085;
+	color: #af944b;
 }
 .pagination>li>a:hover, 
 .pagination>li>span:hover, 
@@ -197,8 +197,8 @@ span.page-numbers.current {
 span.page-numbers.current {
 	z-index: 2;
 	color: #fff;
-    background-color: #16a085;
-    border-color: #16a085;
+    background-color: #af944b;
+    border-color: #af944b;
 }
 
 /* Force search field to not be rounded on iOS devices */
@@ -283,8 +283,10 @@ div.navbar-collapse.collapse {
 
 /* Set content (page title) header to midnight blue */
 .content-header {
-	background-color: #34495e;
-	color: #fff;
+    background-color: #656e2d;
+    min-height: 39px !important;
+    padding: 0 0;
+    color: #fff;
 }
 .content-header h1, 
 .content-header h2, 
@@ -346,7 +348,7 @@ div.navbar-collapse.collapse {
 
 /* Color "sticky" (featured) posts */
 .sticky .entry-title:after {
-	background-color: #1abc9c;
+	background-color: #bb9d4f;
 	color: #fff;
 }
 
@@ -375,7 +377,7 @@ div.navbar-collapse.collapse {
 }
 .carousel-caption {
 	text-shadow: none;
-	background-color: #16a085;
+	background-color: #af944b;
 	color: #fff;
 	opacity: .75;
 	font-weight: bold;
@@ -498,13 +500,6 @@ ul.nav li.dropdown li.menu-item-has-children ul.dropdown-menu {
 }
 
 /*---------------- HEADER STUFF ----------------*/
-
-.content-header {
-    background-color: #656e2d;
-    min-height: 39px !important;
-    padding: 0 0;
-    color: #fff;
-}
 
 .content-header h1.page-title {
     font-size: 18px;

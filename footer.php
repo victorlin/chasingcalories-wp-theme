@@ -113,4 +113,10 @@
 
 <?php wp_footer(); ?>
 
+<?php
+// If the current user can manage options(ie. an admin)
+if( current_user_can( 'manage_options' ) )
+	printf( '<div><strong>Current template:</strong> %s</div>', get_current_template() );
+?>
+
 </body>

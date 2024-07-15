@@ -125,8 +125,3 @@
 
 	<?php // Set up the content area (but don't put it in a container) ?>	
 	<div id="content" class="site-content">
-		<?php 
-		// If the current user can manage options(ie. an admin)
-		if( current_user_can( 'manage_options' ) )
-			printf( '<div><strong>Current template:</strong> %s</div>', get_current_template() );
-		?>

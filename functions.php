@@ -104,6 +104,8 @@ function xsbf_child_credits ( $site_credits ) {
 
 // add_action( 'wp_enqueue_scripts', 'my_scripts_styles' );
 
+add_editor_style( get_stylesheet_directory_uri() . '/style.css' );
+
 add_filter( 'template_include', 'var_template_include', 1000 );
 function var_template_include( $t ){
 	$GLOBALS['current_theme_template'] = basename($t);

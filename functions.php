@@ -66,7 +66,7 @@ $defaults = array(
 	//'custom_header_location' 	=> 'content-header',
 	'site_logo'					=> false,
 	'image_keyboard_nav' 		=> true,
-	'sample_widgets' 			=> true,
+	'sample_widgets' 			=> false,
 	'sample_footer_menu'		=> true,
 	'testimonials'				=> true // requires Jetpack plugin
 );

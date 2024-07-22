@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="container">
 <div id="main-grid" class="row">
 
-	<section id="primary" class="content-area col-md-8">
+	<section id="primary" class="content-area col-md-9">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>

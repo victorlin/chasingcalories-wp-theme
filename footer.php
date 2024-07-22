@@ -111,6 +111,13 @@
 
 </div><!-- #page -->
 
+<?php // If the current user can manage options (ie. an admin)
+if( current_user_can( 'manage_options' ) ) : ?>
+	<div>Current template:
+		<?php get_current_template(); ?>
+	</div>
+<?php endif; ?>
+
 <?php wp_footer(); ?>
 
 </body>

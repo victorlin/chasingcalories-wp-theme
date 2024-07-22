@@ -372,3 +372,21 @@ foreach ( $includes as $include ) {
 } // end function
 xsbf_load_includes();
 endif; // end ! function_exists
+
+
+/************** CUSTOM **************/
+
+# show current template file
+# https://wordpress.stackexchange.com/a/10565
+
+add_filter( 'template_include', 'var_template_include', 1000 );
+function var_template_include( $t ){
+	$GLOBALS['current_theme_template'] = basename($t);
+	return $t;
+}
+
+function get_current_template( $echo = false ) {
+	if( !isset( $GLOBALS['current_theme_template'] ) )
+		echo "unknown";
+	echo $GLOBALS['current_theme_template'];
+}
